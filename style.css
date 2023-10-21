@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    height: 100vh;
+}
+
+header {
+    align-items: center;
+    height: 10vh;
+}
+
+header ul {
+    display: table;
+}
+
+header li {
+    display: table-cell;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+header #destacado {
+    background-image: linear-gradient(45deg, #ffff00 , #ff2f00dd);
+    padding: 5px;
+    border-radius: 20px;
+    color: #fff;
+    text-shadow: 0 0 5px #00000098;
+    font-size: .9em;
+}
+
+header .logo {
+    margin: 5px;
+}
+
+#image {
+    max-width: 350px;
+    height: 350px;
+    margin: auto;
+}
+
+#image img {
+    display: block;
+    position: absolute;
+    max-width: 350px;
+    z-index: 5;
+    width: 300px;
+}
+
+#image #rosa {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    transform: rotate(-25deg);
+}
+
+#image #roxo {
+    display: block;
+    position: absolute;
+    z-index: 3;
+    transform: rotate(-15deg);
+}
+
+#image #azul {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    transform: rotate(-35deg);
+}
+
+main h1 {
+    font-weight: bolder;
+    font-size: 3em;
+    padding: 15px 15px 20px 15px;
+}
+
+main p {
+    padding: 15px 15px 20px 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+main #iemail {
+    
+    width: 85%;
+    margin: 15px auto ;
+    border: none;
+    padding: 20px;
+    display: block;
+}
+
+main #joinbtn {
+    background-color: #356bffe6;
+    color: #fff;
+    width: 85%;
+    margin: 15px auto ;
+    border: none;
+    padding: 20px;
+    display: block;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+main #nospam {
+    padding: 10px 15px;
+    font-size: .8em;
+}
+
+main #nospam p {
+    display: inline;
+    margin-bottom: 15px;
+}
+
+main #nospam svg {
+    display: inline;
+    height: 1.5em;
+    float: left;
+}
+
+footer {
+    padding: 15px 15px 20px 15px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    padding-right: 7px;
+    display: inline;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 300;
+}
