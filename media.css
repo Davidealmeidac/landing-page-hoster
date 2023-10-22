@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 760px) and (max-width: 992px) {
+
+    main {
+        width: 80vw;
+        margin: auto;
+    }
+    
+    main #iemail {
+        width: 40vw;
+        display: inline;
+    }
+
+    main #joinbtn {
+        width: 20vw;
+        display: inline;
+        margin-left: 5px;
+    }
+
+    form {
+        width: 70vw;
+    }
+
+    footer {
+        width: 80vw;
+        margin: auto;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    body {
+        overflow: hidden;
+    }
+
+    header {
+        padding-top: 15px;
+    }
+
+    header #burgerli {
+        display: none;
+    }
+
+    .center-big {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    #image {
+        float: right;
+        width: 40%;
+    }
+    
+    #container {
+        margin-left: 60px;
+        width: 50%;
+        float: left;
+    }
+
+    #image {
+        padding: 0;
+        position: absolute;
+        left: 65%;
+    }
+    
+    main #iemail {
+        width: 27vw;
+        display: inline;
+    }
+
+    main #joinbtn {
+        width: 13vw;
+        display: inline;
+        margin-left: 5px;
+    }
+
+}
