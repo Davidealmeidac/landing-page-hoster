@@ -17,6 +17,7 @@ body {
 header {
     align-items: center;
     height: 20vh;
+    padding-top: 10px;
 }
 
 header ul {
